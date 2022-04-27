@@ -24,7 +24,6 @@ session_start();
 			<ul class="menu">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="product.html">Catalogo</a></li>
-                <li><a href="enviarGarantia.php">Uso de Garantia</a></li>
                 <li><a><?php echo $_SESSION['usuario'];?></a>
 					<ul class="submenu">
 						<li><a href="perfil.php">Ver Perfil</a></li>
@@ -51,24 +50,24 @@ session_start();
                             <div class="content-dest">
                                 <p style="font-size: 90px; text-align: center;"><i class="fa fa-apple"></i></p>
                                 <h3 class="text-center">iOS</h3>
-                                <p class="text-justify">iPhone es una línea de teléfonos inteligentes de alta gama diseñada por Apple Inc. Ejecuta el sistema operativo móvil iOS, nuestros equipos de esta línea ofrecen seguridad y confianza por parte de la empresa Apple, los usuarios resaltan el gran desempeño que les dan a los diseños de los equipos celulares, volviéndose muy famosos por los jóvenes.
-                                </p>
+                                <!-- <p class="text-justify">iPhone es una línea de teléfonos inteligentes de alta gama diseñada por Apple Inc. Ejecuta el sistema operativo móvil iOS, nuestros equipos de esta línea ofrecen seguridad y confianza por parte de la empresa Apple, los usuarios resaltan el gran desempeño que les dan a los diseños de los equipos celulares, volviéndose muy famosos por los jóvenes.
+                                </p> -->
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-4">
                             <div class="content-dest">
                                 <p style="font-size: 90px; text-align: center;"><i class="fa fa-windows"></i></p>
                                 <h3 class="text-center">Windows Phone</h3>
-                                <p class="text-justify">Microsoft Mobile fue una filial de Microsoft, dedicada al diseño y fabricación de teléfonos móviles. Esta empresa tiene su origen en la compra por parte de Microsoft de la división de Dispositivos y Servicios de Nokia, completada el 25 de abril de 2014 Microsoft Mobile Fue la filial de Microsoft encargada del desarrollo de la serie Microsoft Lumia, la línea de teléfonos inteligentes que ejecutan el sistema operativo Windows Phone y Windows 10 Mobile.                                    
-                                </p>
+                                <!-- <p class="text-justify">Microsoft Mobile fue una filial de Microsoft, dedicada al diseño y fabricación de teléfonos móviles. Esta empresa tiene su origen en la compra por parte de Microsoft de la división de Dispositivos y Servicios de Nokia, completada el 25 de abril de 2014 Microsoft Mobile Fue la filial de Microsoft encargada del desarrollo de la serie Microsoft Lumia, la línea de teléfonos inteligentes que ejecutan el sistema operativo Windows Phone y Windows 10 Mobile.                                    
+                                </p> -->
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-4">
                             <div class="content-dest">
                                 <p style="font-size: 90px; text-align: center;"><i class="fa fa-android"></i></p>
                                 <h3 class="text-center">Android</h3>
-                                <p class="text-justify">El sistema operativo Android ofrece a los equipos inteligentes seguridad, garantía y una manera fácil de navegar por sus modelos los equipos que tienen este sistema operativo, está dirigido al público en general, pero el público más representativo es la juventud que elogia a nuestros equipos con este sistema operativo como uno de los más rendidores y completos, frente a sus competidores.
-                                </p>
+                                <!-- <p class="text-justify">El sistema operativo Android ofrece a los equipos inteligentes seguridad, garantía y una manera fácil de navegar por sus modelos los equipos que tienen este sistema operativo, está dirigido al público en general, pero el público más representativo es la juventud que elogia a nuestros equipos con este sistema operativo como uno de los más rendidores y completos, frente a sus competidores.
+                                </p> -->
                             </div>
                         </div>
                     </div>
@@ -82,14 +81,14 @@ session_start();
                             <br>
                         </div>
                         <div class="content-dest">
-                            <center><p>Somos una empresa dedicada a la venta de equipos celulares de todo tipo de gama para nuestros clientes, tenemos como objetivo principal el ofrecer equipos libres a nuestros clientes que puedan adquirir al gusto y preferencia de ellos, además que no intentamos engancharlos con planes costosos o con políticas de planes de 6 meses, queremos llegar a nuestro público por el producto que tenemos y sobre todo por la garantía que maneja nuestra empresa. Somos una empresa joven con fines de crecimiento exponencial a un futuro no lejano, además que los clientes que depositaron en nosotros la compra de un equipo móvil pueden avalar que trabajamos con proveedores de excelente calidad en cuanto a los equipos. 
+                            <center><p>Somos una empresa emprendedora dedicada a la venta de equipos celulares de todo tipo de gama con la finalidad innovar en la modalidad de ventas a domicilio, buscamos expandir nuestro mercado a más productos tecnológicos.  
                              </p></center>
                         </div>
                     
                         <div class="col-xs-12 col-sm-6 text-center">
                             <div class="content-dest">
                                 <h3 class="tittles-pages">Nuestra Misión</h3><br>
-                                <p>Nuestra misión es la de poder ofrecer tecnología de calidad con las 3B que todos nuestros clientes merecen, para la maximización en cuanto a la productividad, entretenimiento y aprendizaje; además en nuestra mente está el poder dar una garantía completa para los productos que salen de nuestra tienda, para brindar la seguridad de nuestro emprendimiento comprometiéndonos con el mejoramiento continuo en cuanto a servicio y venta, además de actualizar nuestros equipos hacia las nuevas tecnologías brindadas hasta el momento. 
+                                <p>Nuestra misión es ofrecer el mejor servicio de distribución de celulares de alta gama a buen precio y en el mejoy tiempo de entrega. 
                                 </p>
 
                             </div>
@@ -97,7 +96,7 @@ session_start();
                         <div class="col-xs-12 col-sm-6 text-center">
                             <div class="content-dest">
                                 <h3 class="tittles-pages">Nuestra Visión</h3><br>
-                                <p>Queremos ser una empresa que a través de sus clientes pueda ser una de las tiendas virtuales más grandes de Perú con miras a la entrega de nuestros productos hacia el extranjero, siguiendo con nuestra política de brindar equipos de excelente calidad y con la garantía que nos identifica, además que deseamos ser una empresa modelo para nuestros competidores, con la finalidad de que los usuarios salgan beneficiados en la rivalidad de ofrecerles mejoras continuas de los servicios de venta de celulares, entre otros.
+                                <p>Ser los primeros en la adquisición y distribución de equipos celulares a nivel nacional.
                                 </p>
 
                             </div>
