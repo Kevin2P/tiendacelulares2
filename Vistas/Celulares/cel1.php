@@ -5,23 +5,9 @@ include("../../Controlador/carrito.php");
 
 
 
-//$result = mysqli_query ( $conexion, "select * from celular where idcel='1'");
-//$extra = mysqli_fetch_array($result);
-try {
+$result = mysqli_query ( $conexion, "select * from celular where idcel='1'");
+$extra = mysqli_fetch_array($result);
 
-  $stmt = $conexion->prepare("select * from celular where idcel='1'");
-  $stmt->execute();
-
-  $extra= $stmt->setFetchMode(PDO::FETCH_ASSOC);	
-	
-  // set the resulting array to associative
-  //$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-  //foreach(new TableRows(new RecursiveArrayIterator($stmt->fetchAll())) as $k=>$v) {
-  //  echo $v;
-  //}
-} catch(PDOException $e) {
-  echo "Error: " . $e->getMessage();
-}
 
 
 ?>
